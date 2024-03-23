@@ -1,0 +1,30 @@
+CS devops
+Ansible, Jenkins, SonarQube, Keycloak, Docker
+
+Constrution de playbooks et de rôles Ansible idempotents et réutilisables à partir d'un monolithe bash.
+Développement d'une pipeline Jenkins multibranches d'Intégration Continue, mise en place de rapports SonarQube, de tests d'intégrations automatisés et de scans d'images Docker via Xray.
+Interfaçage de l'authentification au programme avec le SSO du CNES.
+
+Built idempotent and reusable Ansible playbooks and roles from a suite of Shell commands. Developed a multi-branch Jenkins continuous integration pipeline, setting up SonarQube reports, automated integration tests and Docker image scans via Xray. Interfacing the system's Keycloak authentication layer with CNES's Single Sign-On solution.
+
+CS back
+JAVA, Spring, PostgreSQL
+Conception, Modèle de données 
+
+Développement du module d'agrégation des données solaires
+Mise en place de la persistence des fichiers dans un Datalake S3
+Mise en place des droits de consultation de la base PostgreSQL via une surcouche PostgREST
+
+Development of a JAVA/Spring module to build up a complete history of known solar activity data. Setting up the raw file persistence system in an Amazon S3 Datalake. Construction of the PostgreSQL database consultation rights system via a PostgREST overlay.
+
+About
+
+Suivant une carrière de 10 ans dans le milieu de l'éducation, je me suis d'abord orienté vers le back-end avant de me spécialiser dans le DevOps.
+Je suis en charge de cet aspect du projet DAGDA pour le CNES depuis près d'un an et demi.
+L'objectif principal pour ce projet est de créer la base de données spatiales la plus complète possible, afin de centraliser les informations nécessaires au fonctionnement des différents projets menés au sein du CNES.
+Après avoir travaillé sur plusieurs thématiques importantes, je souhaite désormais consolider mes compétences et partager mon expérience dans un contexte nouveau et passionnant.
+
+Following a 10-year career in education, I initially focused on the back-end before specializing in DevOps.
+I've been in charge of this aspect of the DAGDA project for CNES for almost a year and a half now.
+The main objective of this project is to create the most complete space database possible, in order to centralize the information needed to run the various projects carried out within CNES.
+Having worked on a number of important themes, I'm now looking to consolidate my skills and share my experience in a new and exciting context.
