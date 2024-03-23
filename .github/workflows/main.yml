@@ -1,4 +1,4 @@
-            - name: Docker Buildx Bake
+- name: Docker Buildx Bake
   # You may pin to the exact commit or the version.
   # uses: docker/bake-action@017aa056d6bfc9797de5a5dd354a209dc07b490e
   uses: docker/bake-action@v4.3.0
