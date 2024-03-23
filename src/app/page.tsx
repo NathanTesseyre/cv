@@ -87,7 +87,7 @@ export default function Page() {
             </div>
           </div>
 
-          <Avatar className="size-28">
+          <Avatar className="size-40">
             <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
           </Avatar>
@@ -146,7 +146,9 @@ export default function Page() {
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
                     <h3 className="font-semibold leading-none">
-                      {education.school}
+                      <a className="hover:underline" href={education.link}>
+                        {education.school}
+                      </a>
                     </h3>
                     <div className="text-sm tabular-nums text-gray-500">
                       {education.start} - {education.end}
@@ -167,22 +169,6 @@ export default function Page() {
           </div>
         </Section>
 
-        <Section className="print-force-new-page scroll-mb-16">
-          <h2 className="text-xl font-bold">Projects</h2>
-          <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
-            {RESUME_DATA.projects.map((project) => {
-              return (
-                <ProjectCard
-                  key={project.title}
-                  title={project.title}
-                  description={project.description}
-                  tags={project.techStack}
-                  link={"link" in project ? project.link.href : undefined}
-                />
-              );
-            })}
-          </div>
-        </Section>
       </section>
 
       <CommandMenu
